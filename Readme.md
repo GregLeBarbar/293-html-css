@@ -36,6 +36,8 @@ https://cssgridgarden.com/#fr
 
 ## Guidelines
 
+| Sujet          | URL                                                                       | Description                    |
+| -------------- | ------------------------------------------------------------------------- | ------------------------------ |
 | Guidelines CSS | https://github.com/alsacreations/guidelines/blob/master/Guidelines-CSS.md | Guidelines CSS d'alsacreations |
 
 ## Les développeurs à suivre
