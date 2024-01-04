@@ -1,6 +1,10 @@
 # module 293
 
-https://cssgridgarden.com/#fr
+Module 293 - Créer et publier un site Web
+
+## Identification du module
+
+<a href="https://www.modulbaukasten.ch/module/293/1/fr-FR?title=Cr%C3%A9er-et-publier-un-site-Web">Identification du module</a>
 
 ## Support de cours
 
