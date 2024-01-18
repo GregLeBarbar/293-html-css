@@ -60,6 +60,12 @@ Module 293 - Créer et publier un site Web
 | Test Acid       | https://www.acidtests.org/                             | Indice de conformité au standard                             |
 | bretzel         | http://bretzel.alsacreations.com/                      | Bretzel est un outil d'assistance à la méthodologie Cube CSS |
 
+## Couleur et dégradé
+
+| Sujet           | URL                                                    | Description                        |
+| --------------- | ------------------------------------------------------ | -----------------------------------|
+| Dégradé         | https://uigradients.com/#KimobyIsTheNewBlue            | Proposition de différents dégradés |
+
 ## A explorer
 
 | Sujet | URL                                                                                                                        | Description |
