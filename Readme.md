@@ -62,9 +62,10 @@ Module 293 - Créer et publier un site Web
 
 ## Couleur et dégradé
 
-| Sujet           | URL                                                    | Description                        |
-| --------------- | ------------------------------------------------------ | -----------------------------------|
-| Dégradé         | https://uigradients.com/#KimobyIsTheNewBlue            | Proposition de différents dégradés |
+| Sujet               | URL                                                    | Description                        |
+| ------------------- | ------------------------------------------------------ | -----------------------------------|
+| Dégradé             | https://uigradients.com/#KimobyIsTheNewBlue            | Proposition de différents dégradés |
+| Palette de couleurs | https://coolors.co/                                    | Palette de couleurs                |
 
 ## A explorer
 
