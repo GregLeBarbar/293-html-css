@@ -67,6 +67,13 @@ Module 293 - Créer et publier un site Web
 | Dégradé             | https://uigradients.com/#KimobyIsTheNewBlue            | Proposition de différents dégradés |
 | Palette de couleurs | https://coolors.co/                                    | Palette de couleurs                |
 
+## Arrondi
+
+| Sujet                  | URL                                              | Description                    |
+| ---------------------- | ------------------------------------------------ | -------------------------------|
+| Forme arrondi ou autre | https://9elements.github.io/fancy-border-radius/ | Générateur de formes arrondies |
+
+
 ## A explorer
 
 | Sujet | URL                                                                                                                        | Description |
