@@ -108,3 +108,11 @@ Module 293 - Créer et publier un site Web
 | Sujet | URL                           | Description                                            |
 | ----- | ----------------------------- | ------------------------------------------------------ |
 | Grid  | https://cssgridgarden.com/#fr | Grid Garden : Entrainement ludique autour des Grid CSS |
+
+### Extensions Visual Studio Code
+
+| Nom de l'extension | URL                           | Description                                            |
+| ----- | ----------------------------- | ------------------------------------------------------ |
+| Prettier | https://prettier.io/ | Formatter le code HTML, CSS et JS | 
+| W3C Web Validator | https://marketplace.visualstudio.com/items?itemName=CelianRiboulet.webvalidator | Valider le HTML |
+
