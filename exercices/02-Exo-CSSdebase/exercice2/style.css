@@ -1,0 +1,12 @@
+/* 
+  Exercice n°2: 
+  Créer une page HTML contenant un titre, un paragraphe et une liste à puce. 
+  Le texte de la page doit être en arial. La liste à puce doit être de couleur rouge. 
+*/
+body {
+  font-family: Arial;
+}
+
+li {
+  color: red;
+}

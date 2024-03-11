@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr"><!-- ajouté l'attribut de langue-->
+<head>
+	<!--
+		Auteur		:	Mveng Evina Antoine
+		Date		:	01.10.2021
+		Description	:	modification apportées:
+						ajout de la couleur #22b764 derrière l’onglet Home
+						ajout de la couleur #ff9639 derrière l’onglet Prestations
+						Les onglets Home et Prestations sont l'un à côté de l'autre et prennent chacun 50% de la largeur totale.
+						insérer le logo à la place du texte LOGO
+						Le code CSS et/ou HTML inutile est supprimé. 
+						Les entêtes ou commentaires doivent 
+						être insérés si cela est nécessaire. Il faut corriger les éventuelles erreurs du code.
+						Les normes de l'ETML, ainsi que le w3c et wai doivent être respectées.
+	-->
+	<title>Veto SA - L'ami des animaux</title>
+    <meta charset="utf-8"/>
+    <link href="../../resources/css/layout.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div id="container">
+        <header>
+            <div id="header">
+                <div id="logo"><img src="../../resources/images/logo.png" alt="Logo vétérinaire" width="150" height="150"></div>
+                <nav>
+					<!--https://www.alsacreations.com/astuce/lire/1432-display-inline-block-espaces-indesirables.html-->
+   
+                    <ul>
+                        <li class="green"><a href="home.html">Home</a></li><!--@whitespace
+                     --><li class="orange"><a href="service.html">Prestations</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <h1>Les animaux sont nos amis</h1>
+            <p>
+                Nous vous souhaitons la bienvenue sur le site de notre cabinet vétérinaire. Vous avez un animal et vous
+                souhaitez lui trouver le meilleur professionnel pour sa santé, venez nous visiter !
+            </p>
+            <p>
+                La santé et la longévité de votre animal nous tient à coeur. Nous pouvons vous conseiller sur les soins
+                à lui apporter et aussi prévenir les maladies en vous proposant des vaccins efficaces.
+            </p>
+            <p>
+                Nous sommes à votre service 24h/24 et 7j/7.
+            </p>
+        </main>
+        <footer>
+            <div id="footer">
+                <address>
+                        Veto SA<br>
+                        Route de Morges 34<br>
+                        1005 Lausanne<br>
+                        021 352 145 85 <br>
+                        <a href="mailto:info@vetosa.ch">info@vetosa.ch</a>
+                </address>
+                <section id="sitemap">
+                    <h4>Plan du site</h4>
+                    <ul>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="service.html">Prestations</a></li>
+                    </ul>
+                </section>
+            </div>
+            <div id="poweredby">ETML 2021</div>
+        </footer>
+    </div>
+</body>
+</html>

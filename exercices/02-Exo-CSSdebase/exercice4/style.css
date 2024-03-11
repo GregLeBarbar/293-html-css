@@ -1,0 +1,11 @@
+/*
+  Exercice n°4:
+  Créer une page HTML contenant plusieurs titres de différents niveaux, des paragraphes
+  et a 2 types de liens (sur une page externe et sur une adresse mail). 
+  Trouver un moyen de souligner des mots importants dans les paragraphes. 
+  Les liens doivent être sans soulignement et en vert. 
+*/
+a {
+  text-decoration: none;
+  color: green;
+}

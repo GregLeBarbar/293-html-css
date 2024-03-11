@@ -1,0 +1,63 @@
+/* CSS permettant d'avoir un affichage joli */
+* {
+  font-family: Arial;
+}
+
+body {
+  background-color: #c3b8ff;
+}
+
+.box {
+  background-color: #fff;
+  border-radius: 10px;
+  border: 3px solid black;
+
+  /* Pour aligner les textes au centre des carrés */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* CSS pour la mise en place des grids */
+
+/*
+.box {
+   height: 150px; 
+}
+*/
+
+.conteneur {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 100px 100px 100px 100px 100px;
+  grid-gap: 10px;
+}
+
+.une {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.deux {
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+.trois {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+.quatre {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+
+.sept {
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+.huit {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}

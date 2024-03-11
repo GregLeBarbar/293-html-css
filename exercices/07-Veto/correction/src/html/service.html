@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!--
+		Auteur		:	Mveng Evina Antoine
+		Date		:	01.10.2021
+		Description	:	modification apportées:
+						ajout de la couleur #22b764 derrière l’onglet Home
+						ajout de la couleur #ff9639 derrière l’onglet Prestations
+						Les onglets Home et Prestations sont l'un à côté de l'autre et prennent chacun 50% de la largeur totale.
+						insérer le logo à  à la place du texte LOGO sur tous les pages nécessaires.
+						Sur la page prestation, il doit y avoir 3 colonnes (25/50/25). Et des images doivent être
+						insérée dans les colonnes 1 et 3, le texte est dans la colonne du centre.
+						Le code CSS et/ou HTML inutile doit être supprimé. Les entêtes ou commentaires doivent
+						être insérés si cela est nécessaire. Il faut corriger les éventuelles erreurs du code.
+						Les normes de l'ETML, ainsi que le w3c et wai doivent être respectées.
+	-->
+    <title>Veto SA - L'ami des animaux</title>
+    <meta charset="utf-8"/>
+    <link href="../../resources/css/layout.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div id="container">
+        <header>
+            <div id="header">
+                <div id="logo"><img src="../../resources/images/logo.png" alt="Logo vétérinaire" width="150" height="150"></div>
+                <nav>
+                    <ul>
+                        <li class="green"><a href="home.html">Home</a></li><!--@whitespace
+                     --><li class="orange"><a href="service.html">Prestations</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main id="flexContainer">
+			<div class="c25">
+				<img src="../../userContent/gallery/cameleon3.jpg" alt="cameléon" width="200" height="200">
+				<img src="../../userContent/gallery/cat3.jpg" alt="chat" width="200" height="200">
+			</div>
+            <section>   
+				<h1>Les services que vous nous offrons !</h1>
+				<p>
+					Notre cabinet vous accueillir dans un cadre chaleureux et respectant votre animaux.
+				</p>
+					Un tas de matériel est mis à jour disposition chaque jour pour que vous puissez veiller sur la santé
+					de votre animal. Par exemple, venez le peser régulièrement et sans rendez-vous, puisque la balance est
+					en libre service !
+				</p>
+				<p>
+					Nos autres prestations vous sont détaillées grâce au sous-menu à votre disposition sur votre gauche.
+				</p>
+			</section>    
+			<div class="c25">
+				<img src="../../userContent/gallery/hamster3.jpg" alt="hamster" width="200" height="200">
+				<img src="../../userContent/gallery/dog3.jpg" alt="chien" width="200" height="200">
+			</div>
+                
+        </main>
+        <footer>
+            <div id="footer">
+                <address>
+                    Veto SA<br>
+                    Route de Morges 34<br>
+                    1005 Lausanne<br>
+                    021 352 145 85 <br>
+                    <a href="mailto:info@vetosa.ch">info@vetosa.ch</a>
+                </address>
+                <div id="sitemap">
+                    <h4>Plan du site</h4><!--supprimé <h4 id="sitemap">-->
+                    <ul>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="service.html">Prestations</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="poweredby">ETML 2021</div>
+        </footer>
+    </div>
+</body>
+</html>

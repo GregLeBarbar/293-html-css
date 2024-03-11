@@ -1,0 +1,92 @@
+/*
+	Auteur 		:	Mveng Evina Antoine
+	Date 		:	01.10.2021
+	Description	:	mise en page clownfish.html
+*/
+
+body {
+    margin: 0;
+    background-color: #0ff;/*couleur eau*/
+	font-family: Arial,sans-serif;/*Tous les textes sont écrits en Arial*/
+	color:#000;/*h1,h2,p => bref tous les textes sont en noir*/
+}
+/*======================container===================================*/
+/*Le site doit être centré par rapport au navigateur, 
+*	avoir une marge de 20px sur le haut
+*	une bordure de 3px
+*/
+#container{
+	width:980px;
+	margin:20px auto 0;/*pour centrer les marges gauche et droite sont automatiques*/
+	border:3px solid #000;
+}
+/*======================header======================================*/
+header{
+	/*aligner les logos et le titre*/
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+/*======================main content section========================*/
+section{
+	background-color: #fff;/*ou white*/
+	padding:20px;
+	
+	display:flex;
+	/* flex-direction: row; */
+	flex-wrap: wrap;	
+}
+
+section h2{
+	width:100%; 
+ }
+ 
+ /*le paragraphe qui suit directement le h2 */
+ section h2+p{
+	width:50%;
+	/*border:1px solid orange;*/
+ }
+ 
+section img{
+	margin-left:2em;
+}
+
+/*texte en italique et aligné à droite*/
+#source{
+	font-style:italic;
+	text-align:right;
+	width:100%;
+	margin-block-start: 1em;
+}
+
+/*lien en rouge et pas souligné*/
+#source a{
+	color:#f00;/*ou red*/
+}
+/*======================footer=====================================*/
+footer{	
+	/*le paragraphe va hériter de ce qui suit*/
+	text-align: center;
+	margin-block: 0;
+    padding-block: 10px;/*en donnant le même padding en haut et en bas, le texte est centré verticalement*/
+}
+
+/*======================all======================================*/
+h1,h2,p {
+    margin-block:0;/*enlevons les marges en haut et en bas des blocs textuels*/
+}
+/*des marges internes gauche et droite pour header et section*/
+header,footer{
+	background-color: #216bff;
+	padding-inline:20px;
+}
+
+/*liens non soulignés*/
+a{
+	text-decoration:none;
+}
+
+/*h1 dans le header et lien dans le footer, en blanc*/
+header h1, footer a{
+	color:#fff;/*ou white*/
+}

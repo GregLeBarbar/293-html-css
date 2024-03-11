@@ -1,0 +1,71 @@
+/*
+	Auteur 		:	Mveng Evina Antoine
+	Date 		:	01.10.2021
+	Description	:	mise en page rubik.html
+*/
+
+body {
+    margin: 0;
+    background-color: #00f;/*ou blue*/
+	font-family: Arial,sans-serif;/*Tous les textes sont écrits en Arial*/
+	color:#f00;/*h1,h2,p => bref tous les textes sont en rouge*/
+}
+/*======================container===================================*/
+/*Le site doit être centré par rapport au navigateur, 
+*	avoir une marge de 20px sur le haut
+*/
+#container{
+	width:980px;
+	margin:20px auto 0;/*pour centrer les marges gauche et droite sont automatiques*/
+}
+/*======================header======================================*/
+header{
+	background-color: #ff0;/*ou yellow*/
+	/*centrer verticalement le logo et le titre*/
+	display:flex;
+	align-items:center;
+}
+
+header h1{
+	padding-left:15px;
+}
+
+header a{
+	text-decoration:none;
+}
+/*======================main content section========================*/
+section{
+	background-color: #fff;/*ou white*/
+	padding:20px;
+}
+
+/*texte en noir, italique et aligné à droite*/
+#source{
+	color:#000;/*ou black*/
+	font-style:italic;
+	text-align:right;
+}
+
+/*lien en vert et pas souligné*/
+#source a{
+	color:#008000;/*ou green*/
+	text-decoration:none;
+}
+/*======================footer=====================================*/
+footer{
+	background-color: #ffa500;/*ou orange*/
+	
+	/*le paragraphe va hériter de ce qui suit*/
+	text-align: center;
+	margin-block: 0;
+    padding-block: 10px;/*en donnant le même padding en haut et en bas, le texte est centré verticalement*/
+}
+/*======================all======================================*/
+h1,h2,p {
+    margin-block:0;/*enlevons les marges en haut et en bas des blocs textuels*/
+}
+
+/*des marges internes gauche et droite pour header et section*/
+header,footer{
+	padding-inline:20px;
+}

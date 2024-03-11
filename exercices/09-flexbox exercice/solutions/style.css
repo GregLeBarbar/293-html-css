@@ -1,0 +1,24 @@
+/* Dans cet exercice le conteneur est la balise body (parent de tous les éléments) */
+body {
+  display: flex; /* Les éléments sont affichés les uns à côté des autres */
+
+  /* Lorsque les éléments dépassent la taille de mon container (mon body) */
+  /* il faut que les éléments se positionnent en dessous */
+  flex-wrap: wrap;
+}
+
+.header {
+  flex-basis: 100%; /* Le header doit prendre 100% de la largeur*/
+}
+
+.footer {
+  flex-basis: 100%; /* Le footer doit prendre 100% de la largeur*/
+}
+
+.sidebar {
+  flex-basis: 25%; /* Les sidebars doivent prendre 100% de la largeur*/
+}
+
+.content {
+  flex-basis: 50%; /* Le content doit prendre 100% de la largeur*/
+}

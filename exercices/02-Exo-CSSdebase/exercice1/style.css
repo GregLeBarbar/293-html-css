@@ -1,0 +1,18 @@
+/*
+  Exercice n°1
+  Créer une page HTML contenant un titre et un paragraphe. Le titre doit être de
+  police 24px en arial et de couleur bleu. Le paragraphe doit être justifié, de
+  police verdana et de taille 10px.
+*/
+
+h1 {
+  color: blue;
+  font-size: 24px;
+  font-family: Arial;
+}
+
+p {
+  text-align: justify;
+  font-size: 10px;
+  font-family: Verdana;
+}

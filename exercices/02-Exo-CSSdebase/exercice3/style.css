@@ -1,0 +1,16 @@
+/*
+  Exercice n°3: 
+  Créer une page HTML contenant une image. Ajouter un cadre d’un pixel orange 
+  autour de l'image. Le cadre doit laisser 10px d'espace avec l'image.
+*/
+img {
+  /* */
+  border: solid 1px orange;
+
+  /* */
+  border-style: solid;
+  border-width: 1px;
+  border-color: orange;
+
+  padding: 10px;
+}

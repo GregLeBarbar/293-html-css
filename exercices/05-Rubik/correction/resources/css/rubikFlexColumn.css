@@ -1,0 +1,69 @@
+/*
+	Auteur 		:	Mveng Evina Antoine
+	Date 		:	01.10.2021
+	Description	:	mise en page rubik.html
+*/
+body {
+    margin: 0;
+    background-color: #00f;/*ou blue*/
+	font-family: Arial,sans-serif;/*Tous les textes sont écrits en Arial*/
+	color:#f00;/*h1,h2,p => bref tous les textes sont en rouge*/
+}
+
+/*======================container===================================*/
+/*Le site doit être centré par rapport au navigateur, 
+*	avoir une marge de 20px sur le haut
+*/
+#container{
+	width:980px;
+	margin:20px auto 0;/*pour centrer les marges gauche et droite sont automatiques*/
+	
+	/*j'élimine les espaces entre les blocs */
+	display:flex;
+	flex-direction:column;
+}
+
+/*======================header======================================*/
+header{
+	background-color: #ff0;/*ou yellow*/
+	padding-left:20px;/*comme la section*/
+	/*centrer verticalement le logo et le titre*/
+	display:flex;
+	align-items:center;
+}
+
+header h1{
+	padding-left:15px;
+}
+/*======================main content section========================*/
+section{
+	background-color: #fff;/*ou white*/
+	padding:20px;
+}
+
+section h2,section p {
+	margin-block: 0; /*enlevons les marges en haut et en bas de h2 et p*/
+}
+
+/*texte en noir, italique et aligné à droite*/
+#source{
+	color:#000;/*ou black*/
+	font-style:italic;
+	text-align:right;
+}
+
+/*lien en vert*/
+#source a{
+	color:#008000;/*ou green*/
+	text-decoration:none;
+}
+/*======================footer=====================================*/
+footer{
+	background-color: #ffa500;/*ou orange*/
+	text-align: center;/*le p dans footer va heriter de cette propriété*/
+}
+/*======================all======================================*/
+/*des marges internes gauche et droite pour header et section*/
+header,footer{
+	/*padding-inline:20px;*/
+}

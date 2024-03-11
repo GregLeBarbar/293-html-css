@@ -1,0 +1,30 @@
+#container {
+  width: 980px;
+}
+
+header {
+  background-color: red;
+  height: 50px;
+}
+
+nav {
+  background-color: green;
+  width: 200px;
+  float: left;
+}
+
+main {
+  background-color: blue;
+  margin-left: 200px;
+  padding: 1px;
+}
+
+footer {
+  clear: left;
+  background-color: yellow;
+  height: 30px;
+}
+
+footer p {
+  margin: 0;
+}

@@ -1,0 +1,32 @@
+* {
+  /* margin: 0; */
+}
+
+#container {
+  width: 980px;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: red;
+  flex-basis: 50px;
+}
+
+nav {
+  background-color: green;
+}
+
+main {
+  background-color: blue;
+  display: flex;
+}
+
+footer {
+  background-color: yellow;
+  height: 30px;
+}
+
+footer p {
+  margin: 4px;
+}

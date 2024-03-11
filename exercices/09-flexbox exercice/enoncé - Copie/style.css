@@ -1,0 +1,10 @@
+/* A vous de définir ici le CSS */
+
+body {
+  display: flex;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+}

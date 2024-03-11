@@ -1,0 +1,48 @@
+/*Auteur :	Mveng Evina Antoine
+Date :	01.10.2021
+Description	: Ajout d'une couleur de fond et une taille à chaque élément créé 
+				dans l'exercice 1, à savoir :
+	
+*/
+/*
+body {
+    margin: 0;
+    font-family: Verdana,Arial,sans-serif;
+}*/
+
+/*largeur de 980px*/
+#container{
+	width:980px;
+	display:flex;
+	flex-direction:row; 	/* Valeur par défaut */
+	flex-wrap: wrap;/*passage automatique à la ligne*/
+}
+
+/*couleur de fond rouge et hauteur de 50px*/
+header {
+    background-color: #f00;/*ou red*/
+	height:50px;
+}
+
+/*couleur de fond vert et largeur de 200px*/
+nav{
+	background-color: #008000;/*ou green*/
+	width:200px;
+}
+
+/*Contenu couleur de fond bleu*/
+main{
+	background-color: #00f;/*ou blue*/
+	flex-grow: 1; /*étirement du main:il occupe tout l'espace restant sur sa ligne*/
+}
+
+/*le header et le footer occuppent chacune toute leur ligne*/
+header,footer {
+	flex-basis:100%;/*le header et le footer doivent occuper toute la ligne*/
+}
+
+/*couleur de fond jaune et hauteur de 30px*/
+footer {
+    background-color: #ff0;/*ou yellow*/
+	height:30px;
+}

@@ -1,0 +1,25 @@
+/*
+	Auteur 		:	Mveng Evina Antoine
+	Date 		:	01.10.2021
+	Description	:	Alignement des éléments du formulaire
+*/
+/*
+body {
+    margin: 0;
+    font-family: Verdana,Arial,sans-serif;
+}*/
+
+/*largeur de 980px*/
+#container{
+	width:980px;
+	background: red;
+}
+
+label{
+	display:inline-block;/* j'ai besoin de lui attribuer une largeur*/
+	width:90px;/*la largeur attribuée me permet d'aligner les labels*/
+}
+
+form>div{
+	margin-top:5px;/*un espacement en haut de chaque div*/
+}

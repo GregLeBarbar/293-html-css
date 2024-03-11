@@ -1,0 +1,22 @@
+#container {
+  width: 980px;
+}
+
+header {
+  background-color: red;
+  height: 50px;
+}
+
+nav {
+  background-color: green;
+  width: 200px;
+}
+
+main {
+  background-color: blue;
+}
+
+footer {
+  background-color: yellow;
+  height: 30px;
+}

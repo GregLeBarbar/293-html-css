@@ -1,0 +1,4 @@
+Après la réalisation de ces exercices, que constatez-vous au niveau de la mise en page en
+générale ?
+
+Que sans css c'est triste !
